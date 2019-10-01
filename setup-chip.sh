@@ -13,7 +13,7 @@ fi
 echo "Setting up locales"
 sudo apt install locales -y && 
 # TODO: MANUAL STEP !!! Figure out how to set this programmatically
-sudo dpkg-reconfigure locales
+sudo dpkg-reconfigure locales &&
 
 echo "Updating package listing"
 apt-get update
